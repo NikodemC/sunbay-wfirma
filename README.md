@@ -37,14 +37,13 @@ The current implementation expects a `ProcessOrderCommand` with the following st
 
 ### Future Request Structure
 
-**Important**: The company implementing this integration will provide their own `ProcessOrderCommand` structure. The current structure shown above is a placeholder and will be replaced with the company's specific requirements.
+**Important**: Gepard who implementing this integration will provide their own `ProcessOrderCommand` structure. The current structure shown above is a placeholder and will be replaced with the company's specific requirements.
 
-The final request structure will be determined by the integrating company and may include additional fields such as:
+The final request structure will be determined by Gepard and may include additional fields such as:
 - Order details
 - Product information
 - Quantities
 - Pricing information
-- Customer details
 - Any other business-specific data
 
 ## Response Format
