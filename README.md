@@ -78,15 +78,6 @@ The final request structure will be determined by Gepard and may include additio
 }
 ```
 
-#### Good Not Found (404 Not Found)
-```json
-{
-  "success": false,
-  "errorCode": "GOOD_NOT_FOUND",
-  "errorMessage": "Good was not found"
-}
-```
-
 #### Rate Limit Exceeded (429 Too Many Requests)
 ```json
 {
@@ -122,7 +113,7 @@ The final request structure will be determined by Gepard and may include additio
 | 200 | OK | Order processed successfully, invoice created |
 | 400 | Bad Request | Invalid request format or missing required fields |
 | 401 | Unauthorized | Missing or invalid API key |
-| 404 | Not Found | Contractor or goods not found in the system |
+| 404 | Not Found | Contractor not found in the system |
 | 422 | Unprocessable Entity | Validation errors in the request data |
 | 429 | Too Many Requests | Rate limit exceeded |
 | 500 | Internal Server Error | Unexpected server error |
